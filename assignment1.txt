@@ -76,25 +76,24 @@ values
 
 insert into Projects
 values
-(401,	'Inventory',	01-Apr-11,	01-Oct-11,	31-Oct-11,	150000,	1001),
-(402,	'Accounting',	01-Aug-11,	01-Jan-12,		500000,	1002),
-(403,	'Payroll',	      01-Oct-11,	31-Dec-11,		75000,	1003),
-(404,	'Contact Mgmt',	01-Nov-11,	31-Dec-11,		50000,	1004)
+(401,	'Inventory',	2011-09-23,	2011-09-23,	150000,	1001),
+(402,	'Accounting',	2011-09-23,	2012-01-29,		500000,	1002),
+(403,	'Payroll',	      2011-05-20,	2011-09-23,		75000,	1003),
+(404,	'Contact Mgmt',	2011-09-23,	2011-09-23,		50000,	1004)
 
 inser into EmpProjectTask
 values
-(401,	7001,	01-Apr-11,	20-Apr-11,	'System Analysis',	'Completed'),
-(401,	7002,	21-Apr-11,	30-May-11,	'System Design',	      'Completed'),
-(401,	7003,	01-Jun-11,	15-Jul-11,	'Coding',	            'Completed'),
-(401,	7004,	18-Jul-11,	01-Sep-11,	'Coding',	            'Completed'),
-(401,	7006,	03-Sep-11,	15-Sep-11,	'Testing',	            'Completed'),
-(401,	7009,	18-Sep-11,	05-Oct-11,	'Code Change',	      'Completed'),
-(401,	7008,	06-Oct-11,	16-Oct-11,	'Testing',	            'Completed'),
-(401,	7007,	06-Oct-11,	22-Oct-11,	'Documentation',	      'Completed'),
-(401,	7011,	22-Oct-11,	31-Oct-11,	'Sign off',	            'Completed'),
-(402,	7010,	01-Aug-11,	20-Aug-11,	'System Analysis',	'Completed'),
-(402,	7002,	22-Aug-11,	30-Sep-11,	'System Design',	      'Completed'),
-(402,	7004,	01-Oct-11,		      'Coding',	            'In Progress')
+(401,	7001,	2012-01-29,	2011-04-20,	'System Analysis',	'Completed'),
+(401,	7002,	2011-09-23,	2011-05-20,	'System Design',	      'Completed'),
+(401,	7003,	2011-05-20,	2011-04-23,	'Coding',	            'Completed'),
+(401,	7004,	2012-01-29,	2013-04-20,	'Coding',	            'Completed'),
+(401,	7006,	2011-05-20,	2013-05-20,	'Testing',	            'Completed'),
+(401,	7009,	2012-01-29,	2014-04-20,	'Code Change',	      'Completed'),
+(401,	7008,	2011-09-23,	2011-05-20,	'Testing',	            'Completed'),
+(401,	7007,	2011-05-20,	2011-04-20,	'Documentation',	      'Completed'),
+(401,	7011,	22-Oct-11,	2011-04-20,	'Sign off',	            'Completed'),
+(402,	7010,2012-01-29,	2011-05-20,	'System Analysis',	'Completed'),
+(402,	7002,	2011-09-23,	2011-05-20,	'System Design',	      'Completed')
 
 
 
